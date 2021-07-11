@@ -1,2 +1,2 @@
 FROM UBUNTU
-RUN apt install nginx -y
+RUN apt update && install nginx -y
