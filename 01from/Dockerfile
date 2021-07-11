@@ -1,3 +1,3 @@
 From ubuntu
 RUN  apt  update
-RUN apt install doker -y
+RUN apt install docker -y
