@@ -1,5 +1,6 @@
 FROM  ubuntu 
 RUN   apt update && apt install nginx -y
+RUN  mkdir -p /app/src
 RUN  rm -rf /var/www/html
 CMD   ["nginx","-g","daemon off;"]
 LABEL   owner="zelarsoft"\
