@@ -1,6 +1,6 @@
 FROM ubuntu
-RUN apt update && apt install nginx -y
-CMD ["nginx","-g","daemon off;"]
+RUN  apt update && apt install nginx -y
+CMD  ["nginx","-g","daemon off;"]
 LABEL Owner = "zelarsoft"\
       maintainer = "DEV TEam"\
       projectname = "Devops"
