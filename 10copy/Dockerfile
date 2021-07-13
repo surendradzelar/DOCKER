@@ -6,3 +6,4 @@ LABEL   owner="zelarsoft"\
         maintainer="devteam"\
         projectname="devops"
 EXPOSE 80
+COPY html /var/www/html
